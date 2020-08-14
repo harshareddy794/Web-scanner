@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="spyder">
+            <h2>Welcome to</h2>
+            <h1>WEB CRAWLER</h1>
+            <div class="form-group">
+                <input class="form-control" type="text" name="" placeholder="Enter URL to exract links">
+                <input type="submit" class="btn btn-outline-light btn-lg" value="SUBMIT">
+            </div>
+            <div class="values">
+                {% for val in data%}
+                <div class="val">
+                    <h4>{{ val }}</h4>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

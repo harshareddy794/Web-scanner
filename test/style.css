@@ -1,0 +1,36 @@
+.spyder{
+    text-align: center;
+}
+.spyder .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.spyder .btn{
+    margin-top: 25px;
+
+}
+
+.spyder .values{
+    margin-top:75px ;
+    color: #000;
+}
+
+.spyder .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #0083B0;
+}
+
+.spyder .val h4{
+    font-weight: 400;
+}

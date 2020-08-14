@@ -18,8 +18,8 @@ def crawler(url):
         for tag in tags:
                 if tag.has_attr('href'):
                     links.append(tag['href'])
-        print(links)
-        return 'No error'
+        return(links)
+        
     except:
         #Check if any errors
         return 'Please check the URL properly' 
