@@ -13,10 +13,12 @@
         <div class="spyder">
             <h2>Welcome to</h2>
             <h1>WEB CRAWLER</h1>
-            <div class="form-group">
-                <input class="form-control" type="text" name="" placeholder="Enter URL to exract links">
-                <input type="submit" class="btn btn-outline-light btn-lg" value="SUBMIT">
-            </div>
+            <form action="/spyder-result" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="url" placeholder="Enter URL to exract links">
+                    <input type="submit" class="btn btn-outline-light btn-lg" value="SUBMIT">
+                </div>
+            </form>
             <div class="values">
                 {% for val in data%}
                 <div class="val">
