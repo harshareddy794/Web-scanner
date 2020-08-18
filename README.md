@@ -31,3 +31,18 @@ pip install -r"requirements.txt"
 * flask run
 
 ```
+## Disclaimer :bangbang:
+Crawling of web pages and scanning  of ports is restricted :no_entry: in some sites without written proof :memo: from the owner of site. 
+This creates a lot of load on web server. I/Myteam does not took the responsiblity of wrong usage of this tool. Use at user own risk :100:
+
+## contribution
+Every one who love open source projects and web developement can contribute to my project :heart: .Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. 
+Every contribution is valuable and if you feel any issues in the project feel free to open an issue :fist:
+
+## Contact
+**Email:** harshareddy794@gmail.com
+
+**LinkedIn:** www.linkedin.com/in/harshareddy794
+
+## Acknowledgement
+Thank you every who helped me in building such an amazing project 
