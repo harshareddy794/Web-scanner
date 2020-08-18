@@ -23,4 +23,11 @@ Web scanner is a web site where we can scan 🔍 open ports of the a particular 
 ```bash 
 pip install -r"requirements.txt"
 ```
+3.Running flask server
 
+```bash
+* set FLASK_APP=app.py
+* set FLASK_ENV=development
+* flask run
+
+```
