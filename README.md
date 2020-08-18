@@ -1,5 +1,12 @@
 ![Web-scanner](https://user-images.githubusercontent.com/48166328/90394606-952f6a80-e0b0-11ea-80de-acec0341e3af.png)
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/harshareddy794/)
+[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 # Web-scanner
 Web scanner is a web site where we can scan 🔍 open ports of the a particular web site or a web server and It also has a web crawler :spider: which it can crawl through a web page and extract all the avaliable links on the web page and display it to the user :computer: This scanner runs of flask server which is a python :snake: library.
 ## Buit with
