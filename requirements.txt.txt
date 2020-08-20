@@ -1,4 +1,0 @@
-flask
-socket
-bs4
-urllib
