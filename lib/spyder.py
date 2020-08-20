@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import urllib.request,urllib.error,urllib.parse
+from urllib.request import Request, urlopen
 
 def crawler(url):
     if(len(url)==0):
@@ -7,7 +7,8 @@ def crawler(url):
     try:
         links=[]
         # Sending request to server using BeautifulSoup
-        html_data=urllib.request.urlopen(url).read()
+        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        html_data = urlopen(req).read()
         
         #Beautyfying all data to html form 
         soup=BeautifulSoup(html_data,'html.parser')
